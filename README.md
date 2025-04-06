@@ -1,12 +1,36 @@
-# React + Vite
+# Phonebook Application | Застосунок "Телефонна книга"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description | Опис
 
-Currently, two official plugins are available:
+### English
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A React application that allows users to manage their contacts. The application
+features:
 
-## Expanding the ESLint configuration
+- Adding new contacts with name and phone number
+- Contact validation to prevent duplicates
+- Searching contacts by name
+- Deleting contacts
+- Data persistence using localStorage
+- Modern Neo Mint color scheme for 2025
+- Responsive design
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Українська
+
+React-застосунок для керування контактами. Функціональність включає:
+
+- Додавання нових контактів з ім'ям та номером телефону
+- Валідація контактів для запобігання дублікатів
+- Пошук контактів за ім'ям
+- Видалення контактів
+- Збереження даних за допомогою localStorage
+- Сучасна кольорова схема Neo Mint 2025 року
+- Адаптивний дизайн
+
+## Technologies Used | Використані технології
+
+- React
+- Formik
+- Yup
+- Modern Normalize
+- CSS Modules
