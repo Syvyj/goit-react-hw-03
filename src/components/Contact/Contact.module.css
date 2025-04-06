@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid var(--neo-mint-dark);
+  border-radius: 4px;
+  background-color: var(--neo-mint);
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 4px 8px;
+  background-color: var(--neo-mint-dark);
+  color: #213547;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #92cfb5;
+}
